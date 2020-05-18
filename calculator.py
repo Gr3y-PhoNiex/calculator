@@ -1,0 +1,10 @@
+a =int(input("Enter First Number:"))
+b =int(input("Enter Second Number:"))
+z =a+b
+x =a-b
+y =a*b
+v =a/b
+print("{0} + {1} = {2}".format( a , b, z))
+print("{0} - {1} = {2}".format( a , b , x))
+print("{0} * {1} = {2}".format( a , b , y))
+print("{} / {} = {}".format( a , b , v))
