@@ -13,10 +13,10 @@ print("3.Multiply")
 print("4.Division")
 answer = int(input("Please Enter Only Number:"))
 if answer == 1:
-    print("{} + {} = {}".format(a , b , x))
+    print("{0} + {1} = {2}".format(a , b , x))
 elif answer == 2:
-    print("{} - {} = {}".format(a , b , y))
+    print("{0} - {1} = {2}".format(a , b , y))
 elif answer == 3:
-    print("{} * {} = {}".format(a , b , z))
+    print("{0} * {1} = {2}".format(a , b , z))
 elif answer == 4:
-    print("{} / {} = {}".format(a , b , v))
+    print("{0} / {1} = {2}".format(a , b , v))
